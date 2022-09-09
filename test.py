@@ -2,7 +2,7 @@ import requests
 import json
 
 
-webhook = 'https://oapi.dingtalk.com/robot/send?access_token=xxx'
+webhook = 'https://oapi.dingtalk.com/robot/send?access_token=4c3e9d15ffbbcfc773c3f802c56d64aadb1e755c4d1f0eff689ece636fc5d9ab'
 #xxx替换成自己机器人的token
 
 headers = {
@@ -16,7 +16,7 @@ message = {
     }, 
     "at": {
         "atMobiles": [
-            "187xxxxxxxx"  #发送内容时艾特187xxx的手机号
+            "13818473201"  #发送内容时艾特187xxx的手机号
         ], 
         "isAtAll": False   #是否艾特全体这里选择否
     }
